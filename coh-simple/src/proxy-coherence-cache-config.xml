@@ -20,11 +20,17 @@
 			<autostart>true</autostart>
 		</distributed-scheme>
 		<proxy-scheme>
+			<service-name>ExtendTcpProxyService1</service-name>
 			<acceptor-config>
 				<tcp-acceptor>
 					<address-provider>provider1</address-provider>
 				</tcp-acceptor>
 			</acceptor-config>
+			<autostart>true</autostart>
+		</proxy-scheme>
+		<proxy-scheme>
+			<service-name>ExtendTcpProxyService2</service-name>
+			<acceptor-config/>
 			<autostart>true</autostart>
 		</proxy-scheme>
 	</caching-schemes>

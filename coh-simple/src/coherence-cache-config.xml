@@ -6,7 +6,7 @@
               xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-cache-config http://xmlns.oracle.com/coherence/coherence-cache-config/1.2/coherence-cache-config.xsd">
 	<caching-scheme-mapping>
 		<cache-mapping>
-			<cache-name>*</cache-name>
+			<cache-name>yekki-*</cache-name>
 			<scheme-name>dist-default</scheme-name>
 		</cache-mapping>
 	</caching-scheme-mapping>

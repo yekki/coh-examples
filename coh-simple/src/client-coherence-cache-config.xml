@@ -9,6 +9,10 @@
 			<cache-name>yekki-near</cache-name>
 			<scheme-name>near-extend-dist</scheme-name>
 		</cache-mapping>
+		<cache-mapping>
+			<cache-name>yekki-dist</cache-name>
+			<scheme-name>dist-extend2</scheme-name>
+		</cache-mapping>
 	</caching-scheme-mapping>
 	<caching-schemes>
 		<near-scheme>
@@ -20,17 +24,28 @@
 			</front-scheme>
 			<back-scheme>
 				<remote-cache-scheme>
-					<scheme-ref>dist-extend</scheme-ref>
+					<scheme-ref>dist-extend1</scheme-ref>
 				</remote-cache-scheme>
 			</back-scheme>
 		</near-scheme>
 		<remote-cache-scheme>
-			<scheme-name>dist-extend</scheme-name>
+			<scheme-name>dist-extend1</scheme-name>
 			<initiator-config>
 				<tcp-initiator>
 					<remote-addresses>
 						<address-provider>provider1</address-provider>
 					</remote-addresses>
+				</tcp-initiator>
+			</initiator-config>
+		</remote-cache-scheme>
+		<remote-cache-scheme>
+			<scheme-name>dist-extend2</scheme-name>
+			<service-name>ExtendTcpProxyService2</service-name>
+			<initiator-config>
+				<tcp-initiator>
+					<name-service-addresses>
+						<address-provider>provider2</address-provider>
+					</name-service-addresses>
 				</tcp-initiator>
 			</initiator-config>
 		</remote-cache-scheme>

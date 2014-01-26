@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coherence xmlns="http://xmlns.oracle.com/coherence/coherence-operational-config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-operational-config http://xmlns.oracle.com/coherence/coherence-operational-config/1.2/coherence-operational-config.xsd">
+    <cluster-config>
+        <address-providers>
+        	<address-provider id="provider1">
+        		<socket-address>
+        			<address>192.168.199.190</address>
+        			<port>9099</port>
+        		</socket-address>
+        	</address-provider>
+        </address-providers>
+    </cluster-config>
+</coherence>

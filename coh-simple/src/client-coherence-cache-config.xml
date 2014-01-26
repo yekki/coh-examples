@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+
+<cache-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns="http://xmlns.oracle.com/coherence/coherence-cache-config"
+              xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-cache-config http://xmlns.oracle.com/coherence/coherence-cache-config/1.2/coherence-cache-config.xsd">
+	<caching-scheme-mapping>
+		<cache-mapping>
+			<cache-name>yekki-near</cache-name>
+			<scheme-name>near-extend-dist</scheme-name>
+		</cache-mapping>
+	</caching-scheme-mapping>
+	<caching-schemes>
+		<near-scheme>
+			<scheme-name>near-extend-dist</scheme-name>
+			<front-scheme>
+				<local-scheme>
+					<high-units>1000</high-units>
+				</local-scheme>
+			</front-scheme>
+			<back-scheme>
+				<remote-cache-scheme>
+					<scheme-ref>dist-extend</scheme-ref>
+				</remote-cache-scheme>
+			</back-scheme>
+		</near-scheme>
+		<remote-cache-scheme>
+			<scheme-name>dist-extend</scheme-name>
+			<initiator-config>
+				<tcp-initiator>
+					<remote-addresses>
+						<address-provider>provider1</address-provider>
+					</remote-addresses>
+				</tcp-initiator>
+			</initiator-config>
+		</remote-cache-scheme>
+	</caching-schemes>
+</cache-config>

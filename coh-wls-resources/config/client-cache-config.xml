@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<cache-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns="http://xmlns.oracle.com/coherence/coherence-cache-config"
+              xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-cache-config http://xmlns.oracle.com/coherence/coherence-cache-config/1.2/coherence-cache-config.xsd">
+
+	<caching-scheme-mapping>
+		<cache-mapping>
+			<cache-name>yekki-*</cache-name>
+			<scheme-name>extend-dist</scheme-name>
+		</cache-mapping>
+	</caching-scheme-mapping>
+	<caching-schemes>
+		<remote-cache-scheme>
+			<scheme-name>extend-dist</scheme-name>
+			<proxy-service-name>TcpExtend</proxy-service-name>
+			<initiator-config>
+				<tcp-initiator>
+					<name-service-addresses>
+						<address-provider>provider1</address-provider>
+					</name-service-addresses>
+				</tcp-initiator>
+			</initiator-config>
+		</remote-cache-scheme>
+	</caching-schemes>
+</cache-config>

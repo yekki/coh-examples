@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="oracle.eclipse.tools.coherence.launchConfigurationType">
+<mapAttribute key="coherence.system.properties">
+<mapEntry key="CacheConfig" value="tangosol.coherence.cacheconfig"/>
+<mapEntry key="LocalStorage" value="tangosol.coherence.distributed.localstorage"/>
+</mapAttribute>
+<mapAttribute key="coherence.values">
+<mapEntry key="CacheConfig" value="coherence-cache-config.xml"/>
+<mapEntry key="LocalStorage" value="false"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/coh-tutorial-gar/src/com/oracle/handson/ContactDriver.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.debug.ui.INCLUDE_EXTERNAL_JARS" value="true"/>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.oracle.handson.ContactDriver"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="coh-tutorial-gar"/>
+</launchConfiguration>

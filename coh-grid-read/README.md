@@ -10,5 +10,5 @@
 1. Enable the SCOTT user in Oracle XE. 
 2. Run com.yekki.coh.grid.CreateDatabase to drop and create tables
 3. Run CacheServer
-4. Run com.yekki.coh.grid.InsertExample to persist some objects
-5. Run com.yekki.coh.grid.QueryExample to query objects
+4. Run com.yekki.coh.grid.InsertData to persist some objects
+5. Run com.yekki.coh.grid.QueryData to query objects

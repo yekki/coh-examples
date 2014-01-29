@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="oracle.eclipse.tools.coherence.launchConfigurationType">
+<mapAttribute key="coherence.system.properties">
+<mapEntry key="CacheConfig" value="tangosol.coherence.cacheconfig"/>
+<mapEntry key="LocalStorage" value="tangosol.coherence.distributed.localstorage"/>
+<mapEntry key="tangosol.pof.config" value="tangosol.pof.config"/>
+</mapAttribute>
+<mapAttribute key="coherence.values">
+<mapEntry key="CacheConfig" value="jpa-coherence-cache-config.xml"/>
+<mapEntry key="LocalStorage" value="false"/>
+<mapEntry key="tangosol.pof.config" value="jpa-pof-config.xml"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/coh-cachestore/src/com/yekki/coh/cachestore/ReadDataClient.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.yekki.coh.cachestore.ReadDataClient"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="coh-cachestore"/>
+</launchConfiguration>

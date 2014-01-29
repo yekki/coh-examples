@@ -2,20 +2,19 @@
 <launchConfiguration type="oracle.eclipse.tools.coherence.launchConfigurationType">
 <mapAttribute key="coherence.system.properties">
 <mapEntry key="CacheConfig" value="tangosol.coherence.cacheconfig"/>
-<mapEntry key="tangosol.pof.config" value="tangosol.pof.config"/>
+<mapEntry key="LocalStorage" value="tangosol.coherence.distributed.localstorage"/>
 </mapAttribute>
 <mapAttribute key="coherence.values">
-<mapEntry key="CacheConfig" value="jpa-coherence-cache-config.xml"/>
-<mapEntry key="tangosol.pof.config" value="tutorial-pof-config.xml"/>
+<mapEntry key="CacheConfig" value="tutorial-coherence-cache-config.xml"/>
+<mapEntry key="LocalStorage" value="false"/>
 </mapAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/coh-cachestore"/>
+<listEntry value="/coh-tutorial/src/com/oracle/handson/ObserverExample.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
-<listEntry value="4"/>
+<listEntry value="1"/>
 </listAttribute>
-<booleanAttribute key="org.eclipse.jdt.debug.ui.INCLUDE_EXTERNAL_JARS" value="true"/>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.tangosol.net.DefaultCacheServer"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="coh-cachestore"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.oracle.handson.ObserverExample"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="coh-tutorial"/>
 </launchConfiguration>

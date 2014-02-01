@@ -1,0 +1,9 @@
+Batch Counter	ReportTime	Service	Node Id	RefreshTime	Request Count	RequestPendingCount	RequestPendingDuration	Request Timeout Count	Task Count	TaskBacklog	Task Timeout Count	Task Hung Count	Thread Abandoned Count
+24	星期六 二月 01 14:00:52 CST 2014	DistributedCache	1	星期六 二月 01 14:00:52 CST 2014	0.0	0	0	0.0	0.0	0	0.0	0	0.0
+24	星期六 二月 01 14:00:52 CST 2014	Management	1	星期六 二月 01 14:00:52 CST 2014	0.0	0	0	0.0	0.0	0	0.0	0	0.0
+25	星期六 二月 01 14:01:52 CST 2014	DistributedCache	1	星期六 二月 01 14:01:52 CST 2014	0.0	1	1563	0.0	0.0	0	0.0	0	0.0
+25	星期六 二月 01 14:01:52 CST 2014	Management	1	星期六 二月 01 14:01:52 CST 2014	1.0	0	0	0.0	0.0	0	0.0	0	0.0
+26	星期六 二月 01 14:02:53 CST 2014	DistributedCache	1	星期六 二月 01 14:02:53 CST 2014	4.0	0	0	0.0	0.0	0	0.0	0	0.0
+26	星期六 二月 01 14:02:53 CST 2014	Management	1	星期六 二月 01 14:02:53 CST 2014	0.0	0	0	0.0	0.0	0	0.0	0	0.0
+27	星期六 二月 01 14:03:53 CST 2014	DistributedCache	1	星期六 二月 01 14:03:53 CST 2014	0.0	0	0	0.0	0.0	0	0.0	0	0.0
+27	星期六 二月 01 14:03:53 CST 2014	Management	1	星期六 二月 01 14:03:53 CST 2014	0.0	0	0	0.0	0.0	0	0.0	0	0.0

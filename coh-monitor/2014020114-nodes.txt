@@ -1,0 +1,6 @@
+Batch Counter	Report Time	RefreshTime	Node Id	UnicastAddress	MemberName	ProcessName	RoleName	MachineName	RackName	SiteName
+23	星期六 二月 01 14:00:04 CST 2014	星期六 二月 01 14:00:04 CST 2014	3	GNIU-CN/192.168.56.1	n/a	952	CoherenceServer	gniu-cn	n/a	n/a
+24	星期六 二月 01 14:01:04 CST 2014	星期六 二月 01 14:01:04 CST 2014	3	GNIU-CN/192.168.56.1	n/a	952	CoherenceServer	gniu-cn	n/a	n/a
+25	星期六 二月 01 14:02:04 CST 2014	星期六 二月 01 14:02:04 CST 2014	3	GNIU-CN/192.168.56.1	n/a	952	CoherenceServer	gniu-cn	n/a	n/a
+26	星期六 二月 01 14:03:04 CST 2014	星期六 二月 01 14:03:04 CST 2014	3	GNIU-CN/192.168.56.1	n/a	952	CoherenceServer	gniu-cn	n/a	n/a
+27	星期六 二月 01 14:04:04 CST 2014	星期六 二月 01 14:04:04 CST 2014	3	GNIU-CN/192.168.56.1	n/a	952	CoherenceServer	gniu-cn	n/a	n/a

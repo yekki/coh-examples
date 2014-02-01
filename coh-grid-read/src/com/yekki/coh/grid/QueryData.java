@@ -27,7 +27,7 @@ public class QueryData {
 				.createNamedQuery("Employee.findByLastNameLike")
 				.setParameter("lastName", "Smit%");
 		
-		//bypass coherence and query database directly!!!
+		//Allows queries to bypass the Coherence cache and be sent directly to the database!!
 		//query.setHint(QueryHints.QUERY_REDIRECTOR, new IgnoreDefaultRedirector());
 		
 		List<Employee> employees =query

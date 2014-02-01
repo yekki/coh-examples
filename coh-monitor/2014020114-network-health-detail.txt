@@ -1,0 +1,6 @@
+Batch Counter	Report Time	RefreshTime	Node Id	Tx Success	Rx Success	PacketsSent	Current Packets Sent	PacketsResent	Current Packet Resent	PacketsRepeated	Current Repeated	PacketsReceived	Current Packets Received
+23	星期六 二月 01 14:00:04 CST 2014	星期六 二月 01 14:00:04 CST 2014	3	1.0	1.0	1773	79.0	0	0.0	0	0.0	3013	76.0
+24	星期六 二月 01 14:01:04 CST 2014	星期六 二月 01 14:01:04 CST 2014	3	1.0	1.0	1778	5.0	0	0.0	0	0.0	3078	65.0
+25	星期六 二月 01 14:02:04 CST 2014	星期六 二月 01 14:02:04 CST 2014	3	1.0	1.0	1914	136.0	0	0.0	0	0.0	3471	393.0
+26	星期六 二月 01 14:03:04 CST 2014	星期六 二月 01 14:03:04 CST 2014	3	1.0	1.0	2335	421.0	0	0.0	0	0.0	4079	608.0
+27	星期六 二月 01 14:04:04 CST 2014	星期六 二月 01 14:04:05 CST 2014	3	1.0	1.0	2425	90.0	0	0.0	0	0.0	4164	85.0

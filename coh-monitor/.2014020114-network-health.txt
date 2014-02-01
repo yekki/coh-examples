@@ -1,0 +1,5 @@
+Batch Counter	Report Time	Min Node Rx Success	Grid Rx Success	Min Node Tx Success	Grid Tx Success
+24	星期六 二月 01 14:00:52 CST 2014	1.0	1.0	1.0	0.9934640522875817
+25	星期六 二月 01 14:01:52 CST 2014	1.0	1.0	0.9895833333333334	1.0
+26	星期六 二月 01 14:02:52 CST 2014	1.0	1.0	1.0	0.9895833333333334
+27	星期六 二月 01 14:03:53 CST 2014	1.0	1.0	1.0	1.0

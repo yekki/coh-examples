@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coherence
+	xmlns="http://xmlns.oracle.com/coherence/coherence-operational-config"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-operational-config http://xmlns.oracle.com/coherence/coherence-operational-config/1.2/coherence-operational-config.xsd">
+	<management-config>
+		<refresh-policy system-property="tangosol.coherence.management.refresh.policy">
+			refresh-ahead</refresh-policy>
+		<refresh-expiry system-property="tangosol.coherence.management.refresh.expiry">1s
+		</refresh-expiry>
+		<refresh-timeout system-property="tangosol.coherence.management.refresh.timeout">300ms
+		</refresh-timeout>
+	</management-config>
+</coherence>
